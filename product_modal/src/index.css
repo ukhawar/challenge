@@ -1,0 +1,42 @@
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  /* Light theme variables */
+  --color-bg: white;
+  --color-bg-secondary: #efefef;
+  --color-primary: #5b8bf7;
+  --color-secondary: #f76c6c;
+  --color-accent: #a8d173;
+  --color-background: #f0f0f0;
+  --color-foreground: #333333;
+  --color-text: #482d2d;
+  --color-text-light: #bac1c9;
+  --color-text-secondary: #2d3748;
+  --color-text-secondary-light: #717172;
+  --color-text-secondary-lighter: #b5b5b5;
+  --color-border: #000;
+  --color-border-secondary: #efefef;
+  --color-button: #000;
+  --color-button-light: #bac1c9;
+  --color-button-secondary: #000;
+  --color-button-secondary-light: #bac1c9;
+  --font-size-text: 1rem;
+  --font-size-text-light: 1rem;
+  --font-size-text-secondary: 0.75rem;
+  --font-size-text-secondary-light: 0.75rem;
+  --font-size-button: 1.25rem;
+  --font-size-button-light: 1.25rem;
+  --font-size-button-secondary-light: 0.75rem;
+  --font-size-button-secondary: 0.75rem;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
