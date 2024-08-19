@@ -15,11 +15,14 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
+### open new terminal and install playwright
 ```
-npm run test:unit
+npm install @playwright/test@latest
 ```
-
+### Execute below for execution of tests
+```
+npx playwright test tests
+```
 ### Lints and fixes files
 ```
 npm run lint
@@ -27,4 +30,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-//button[@type='submit']
+
+
+
+

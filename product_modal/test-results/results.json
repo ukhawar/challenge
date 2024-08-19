@@ -89,20 +89,20 @@
   },
   "suites": [
     {
-      "title": "plp.spec.ts",
-      "file": "plp.spec.ts",
+      "title": "pdp.spec.ts",
+      "file": "pdp.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Product Listing Page Tests",
-          "file": "plp.spec.ts",
-          "line": 13,
-          "column": 8,
+          "title": "Product Detail Page Tests",
+          "file": "pdp.spec.ts",
+          "line": 5,
+          "column": 6,
           "specs": [
             {
-              "title": "PLP page title should be correct",
+              "title": "Article Price is Available on Product Display Page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -116,25 +116,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 17478,
+                      "duration": 48225,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-08-19T12:53:43.554Z",
+                      "startTime": "2024-08-19T17:46:29.127Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-2935f3c4693c58d648c5",
-              "file": "plp.spec.ts",
+              "id": "f952aa59de7cf4ea406f-375010742ac869cf3b7d",
+              "file": "pdp.spec.ts",
               "line": 22,
               "column": 7
             },
             {
-              "title": "All products should have titles",
+              "title": "Verify Colors on Product Display Page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -144,17 +144,93 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 38377,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:47:20.134Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-cf287ee272fd9bbf5e2b",
-              "file": "plp.spec.ts",
+              "id": "f952aa59de7cf4ea406f-9d169ba329a6a598a1b0",
+              "file": "pdp.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "Verift Article Name Available on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 31139,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:47:58.731Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-d72d8381662261081f39",
+              "file": "pdp.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "Verify that selecting a size is applied successfully on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 37231,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:48:30.009Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-c99dfc8c5ed6b3e3e759",
+              "file": "pdp.spec.ts",
               "line": 37,
               "column": 7
             },
             {
-              "title": "Verify all product images are available and visible",
+              "title": "Verify tabs Available on Product Display Page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -164,17 +240,85 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 26164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:49:07.403Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-7f568343cea520f663f1",
-              "file": "plp.spec.ts",
-              "line": 41,
+              "id": "f952aa59de7cf4ea406f-90b9ab4adbd60be3c8ef",
+              "file": "pdp.spec.ts",
+              "line": 43,
               "column": 7
             },
             {
-              "title": "Verify all product prices are available and valid",
+              "title": "Verify that changing color updates the product image on Product Display Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 22269,
+                      "error": {
+                        "message": "ReferenceError: expect is not defined",
+                        "stack": "ReferenceError: expect is not defined\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:62:9",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 9,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mconst\u001b[39m updatedImageSrc \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mgetUpdatedProductImageSrc()\n \u001b[90m 61 |\u001b[39m         \u001b[90m// Assert that the image src has changed (indicating the image was updated)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         expect(updatedImageSrc)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(initialImageSrc)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   test(\u001b[32m'Verify notification appears and vanishes after adding to cart'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 65 |\u001b[39m    \u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 9,
+                            "line": 62
+                          },
+                          "message": "ReferenceError: expect is not defined\n\n\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mconst\u001b[39m updatedImageSrc \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mgetUpdatedProductImageSrc()\n \u001b[90m 61 |\u001b[39m         \u001b[90m// Assert that the image src has changed (indicating the image was updated)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         expect(updatedImageSrc)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(initialImageSrc)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   test(\u001b[32m'Verify notification appears and vanishes after adding to cart'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 65 |\u001b[39m    \u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:62:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:49:33.635Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 9,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-86c4d968e4cb9725e16b",
+              "file": "pdp.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "Verify notification appears and vanishes after adding to cart",
               "ok": true,
               "tags": [],
               "tests": [
@@ -184,17 +328,85 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 27533,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:50:15.052Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-1040d321a7f9050bf0cc",
-              "file": "plp.spec.ts",
-              "line": 44,
+              "id": "f952aa59de7cf4ea406f-450512367be4aa88bd39",
+              "file": "pdp.spec.ts",
+              "line": 64,
               "column": 7
             },
             {
-              "title": "Verify that colors on PLP should be available for each product",
+              "title": "Verify Add to Cart button is disabled when size is not selected",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 22446,
+                      "error": {
+                        "message": "Error: Add to Cart button should be disabled when no size is selected.",
+                        "stack": "Error: Add to Cart button should be disabled when no size is selected.\n    at PDPPage.verifyAddToCartButtonDisabledWhenSizeNotSelected (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:222:23)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:75:5",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 23,
+                          "line": 222
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:222\n\n\u001b[0m \u001b[90m 220 |\u001b[39m               \u001b[36mconst\u001b[39m isDisabled \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misAddToCartButtonDisabled()\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m               \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39misDisabled) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 222 |\u001b[39m                 \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Add to Cart button should be disabled when no size is selected.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 223 |\u001b[39m               }\n \u001b[90m 224 |\u001b[39m             } \u001b[36melse\u001b[39m {\n \u001b[90m 225 |\u001b[39m               \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Size is selected, but the test case is for no size selected.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 23,
+                            "line": 222
+                          },
+                          "message": "Error: Add to Cart button should be disabled when no size is selected.\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:222\n\n\u001b[0m \u001b[90m 220 |\u001b[39m               \u001b[36mconst\u001b[39m isDisabled \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misAddToCartButtonDisabled()\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m               \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39misDisabled) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 222 |\u001b[39m                 \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Add to Cart button should be disabled when no size is selected.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 223 |\u001b[39m               }\n \u001b[90m 224 |\u001b[39m             } \u001b[36melse\u001b[39m {\n \u001b[90m 225 |\u001b[39m               \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Size is selected, but the test case is for no size selected.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at PDPPage.verifyAddToCartButtonDisabledWhenSizeNotSelected (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:222:23)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:75:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:50:46.671Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 23,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-936462e60228b3467e7b",
+              "file": "pdp.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "Check available sizes and their visibility",
               "ok": true,
               "tags": [],
               "tests": [
@@ -204,17 +416,29 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 31522,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:51:24.682Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-56d3e81d238011c6e636",
-              "file": "plp.spec.ts",
-              "line": 47,
+              "id": "f952aa59de7cf4ea406f-c46a6b2f211ad8716b04",
+              "file": "pdp.spec.ts",
+              "line": 78,
               "column": 7
             },
             {
-              "title": "Verify same product opens in PDP when clicking product from PLP",
+              "title": "Verify PDP window close when click on close button",
               "ok": true,
               "tags": [],
               "tests": [
@@ -224,17 +448,141 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 17887,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:51:57.966Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-052236caaba9b872c9c9",
-              "file": "plp.spec.ts",
-              "line": 50,
+              "id": "f952aa59de7cf4ea406f-af22f156e4518e6f49e7",
+              "file": "pdp.spec.ts",
+              "line": 84,
               "column": 7
             },
             {
-              "title": "PLP page title should be correct",
+              "title": "Article Price is Available on Product Display Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "failed",
+                      "duration": 29085,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 18,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 18,
+                            "line": 14
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:49:21.323Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 18,
+                        "line": 14
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-351d5ef7782c233607cd",
+              "file": "pdp.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Verify Colors on Product Display Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "failed",
+                      "duration": 42206,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-detail__color-value') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-detail__color-value') to be visible\u001b[22m\n\n    at PDPPage.verifyColorOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:87:40)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:29:19",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 40,
+                          "line": 87
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:87\n\n\u001b[0m \u001b[90m 85 |\u001b[39m   \u001b[36masync\u001b[39m verifyColorOptions() {\n \u001b[90m 86 |\u001b[39m         \u001b[90m// Wait for the color options to be visible\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcolorOptionSelector\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m         \u001b[90m// Locate all color options\u001b[39m\n \u001b[90m 89 |\u001b[39m         \u001b[36mconst\u001b[39m colorOptions \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcolorOptionSelector\u001b[33m.\u001b[39melementHandles()\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m         expect(colorOptions\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 40,
+                            "line": 87
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-detail__color-value') to be visible\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:87\n\n\u001b[0m \u001b[90m 85 |\u001b[39m   \u001b[36masync\u001b[39m verifyColorOptions() {\n \u001b[90m 86 |\u001b[39m         \u001b[90m// Wait for the color options to be visible\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcolorOptionSelector\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m         \u001b[90m// Locate all color options\u001b[39m\n \u001b[90m 89 |\u001b[39m         \u001b[36mconst\u001b[39m colorOptions \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcolorOptionSelector\u001b[33m.\u001b[39melementHandles()\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m         expect(colorOptions\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at PDPPage.verifyColorOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:87:40)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:29:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:50:02.593Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 40,
+                        "line": 87
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-68295142686487199339",
+              "file": "pdp.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "Verift Article Name Available on Product Display Page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -246,28 +594,28 @@
                   "projectName": "Mobile",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "status": "skipped",
-                      "duration": 0,
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 26245,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-08-19T12:53:43.554Z",
+                      "startTime": "2024-08-19T17:51:02.007Z",
                       "attachments": []
                     }
                   ],
-                  "status": "skipped"
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-abf252340a72ba7e145a",
-              "file": "plp.spec.ts",
-              "line": 22,
+              "id": "f952aa59de7cf4ea406f-0726ce9eda8eb00a089c",
+              "file": "pdp.spec.ts",
+              "line": 32,
               "column": 7
             },
             {
-              "title": "All products should have titles",
-              "ok": true,
+              "title": "Verify that selecting a size is applied successfully on Product Display Page",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -276,18 +624,54 @@
                   "expectedStatus": "passed",
                   "projectId": "Mobile",
                   "projectName": "Mobile",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "failed",
+                      "duration": 40078,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at PDPPage.verifySizeSelection (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:119:23)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:40:5",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 23,
+                          "line": 119
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:119\n\n\u001b[0m \u001b[90m 117 |\u001b[39m         \u001b[90m// Ensure there is at least one size option available\u001b[39m\n \u001b[90m 118 |\u001b[39m         \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m sizeOptions\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 119 |\u001b[39m         expect(count)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 120 |\u001b[39m         \u001b[36mlet\u001b[39m sizeOptionToClick\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m \u001b[33m|\u001b[39m \u001b[36mnull\u001b[39m \u001b[33m=\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 121 |\u001b[39m         \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m i \u001b[33m<\u001b[39m count\u001b[33m;\u001b[39m i\u001b[33m++\u001b[39m) {\n \u001b[90m 122 |\u001b[39m         \u001b[36mconst\u001b[39m sizeOption \u001b[33m=\u001b[39m sizeOptions\u001b[33m.\u001b[39mnth(i)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 23,
+                            "line": 119
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:119\n\n\u001b[0m \u001b[90m 117 |\u001b[39m         \u001b[90m// Ensure there is at least one size option available\u001b[39m\n \u001b[90m 118 |\u001b[39m         \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m sizeOptions\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 119 |\u001b[39m         expect(count)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 120 |\u001b[39m         \u001b[36mlet\u001b[39m sizeOptionToClick\u001b[33m:\u001b[39m \u001b[33mLocator\u001b[39m \u001b[33m|\u001b[39m \u001b[36mnull\u001b[39m \u001b[33m=\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 121 |\u001b[39m         \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m i \u001b[33m<\u001b[39m count\u001b[33m;\u001b[39m i\u001b[33m++\u001b[39m) {\n \u001b[90m 122 |\u001b[39m         \u001b[36mconst\u001b[39m sizeOption \u001b[33m=\u001b[39m sizeOptions\u001b[33m.\u001b[39mnth(i)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at PDPPage.verifySizeSelection (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:119:23)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:40:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:51:29.918Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 23,
+                        "line": 119
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-6960ebe3b460ef0f1e44",
-              "file": "plp.spec.ts",
+              "id": "f952aa59de7cf4ea406f-911b850800c55589b563",
+              "file": "pdp.spec.ts",
               "line": 37,
               "column": 7
             },
             {
-              "title": "Verify all product images are available and visible",
-              "ok": true,
+              "title": "Verify tabs Available on Product Display Page",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -296,17 +680,277 @@
                   "expectedStatus": "passed",
                   "projectId": "Mobile",
                   "projectName": "Mobile",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "failed",
+                      "duration": 46666,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-details-tab__content') to be visible\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-details-tab__content') to be visible\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:47:16",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 16,
+                          "line": 47
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 45 |\u001b[39m     \u001b[36mconst\u001b[39m pdpPage \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mPDPPage\u001b[39m(page)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[90m// Ensure the main content is visible before interacting with tabs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 47 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m'.product-details-tab__content'\u001b[39m\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 48 |\u001b[39m     \u001b[90m// Verify all tabs\u001b[39m\n \u001b[90m 49 |\u001b[39m     \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mverifyAllTabs()\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 16,
+                            "line": 47
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-details-tab__content') to be visible\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\u001b[2m  -   locator resolved to hidden <div data-v-0de32e81=\"\" class=\"product-details-tab__content\">…</div>\u001b[22m\n\n\n\u001b[0m \u001b[90m 45 |\u001b[39m     \u001b[36mconst\u001b[39m pdpPage \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mPDPPage\u001b[39m(page)\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[90m// Ensure the main content is visible before interacting with tabs\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 47 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m'.product-details-tab__content'\u001b[39m\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 48 |\u001b[39m     \u001b[90m// Verify all tabs\u001b[39m\n \u001b[90m 49 |\u001b[39m     \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mverifyAllTabs()\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:47:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:52:19.282Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 16,
+                        "line": 47
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-a676c6f52295283b119c",
-              "file": "plp.spec.ts",
-              "line": 41,
+              "id": "f952aa59de7cf4ea406f-03c2e787e11f238d4e0e",
+              "file": "pdp.spec.ts",
+              "line": 43,
               "column": 7
             },
             {
-              "title": "Verify all product prices are available and valid",
+              "title": "Verify that changing color updates the product image on Product Display Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "failed",
+                      "duration": 33402,
+                      "error": {
+                        "message": "ReferenceError: expect is not defined",
+                        "stack": "ReferenceError: expect is not defined\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:62:9",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 9,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mconst\u001b[39m updatedImageSrc \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mgetUpdatedProductImageSrc()\n \u001b[90m 61 |\u001b[39m         \u001b[90m// Assert that the image src has changed (indicating the image was updated)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         expect(updatedImageSrc)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(initialImageSrc)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   test(\u001b[32m'Verify notification appears and vanishes after adding to cart'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 65 |\u001b[39m    \u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 9,
+                            "line": 62
+                          },
+                          "message": "ReferenceError: expect is not defined\n\n\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mconst\u001b[39m updatedImageSrc \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m pdpPage\u001b[33m.\u001b[39mgetUpdatedProductImageSrc()\n \u001b[90m 61 |\u001b[39m         \u001b[90m// Assert that the image src has changed (indicating the image was updated)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         expect(updatedImageSrc)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBe(initialImageSrc)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   test(\u001b[32m'Verify notification appears and vanishes after adding to cart'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 65 |\u001b[39m    \u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:62:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:53:26.275Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 9,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-bd0a6db33506abaaa660",
+              "file": "pdp.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "Verify notification appears and vanishes after adding to cart",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "status": "failed",
+                      "duration": 35321,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 18,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 18,
+                            "line": 14
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:54:44.910Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 18,
+                        "line": 14
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-4805d103c2dedd8e6933",
+              "file": "pdp.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "Verify Add to Cart button is disabled when size is not selected",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "status": "failed",
+                      "duration": 25421,
+                      "error": {
+                        "message": "Error: Add to Cart button should be disabled when no size is selected.",
+                        "stack": "Error: Add to Cart button should be disabled when no size is selected.\n    at PDPPage.verifyAddToCartButtonDisabledWhenSizeNotSelected (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:222:23)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:75:5",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 23,
+                          "line": 222
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:222\n\n\u001b[0m \u001b[90m 220 |\u001b[39m               \u001b[36mconst\u001b[39m isDisabled \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misAddToCartButtonDisabled()\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m               \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39misDisabled) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 222 |\u001b[39m                 \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Add to Cart button should be disabled when no size is selected.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 223 |\u001b[39m               }\n \u001b[90m 224 |\u001b[39m             } \u001b[36melse\u001b[39m {\n \u001b[90m 225 |\u001b[39m               \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Size is selected, but the test case is for no size selected.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 23,
+                            "line": 222
+                          },
+                          "message": "Error: Add to Cart button should be disabled when no size is selected.\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:222\n\n\u001b[0m \u001b[90m 220 |\u001b[39m               \u001b[36mconst\u001b[39m isDisabled \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misAddToCartButtonDisabled()\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m               \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39misDisabled) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 222 |\u001b[39m                 \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Add to Cart button should be disabled when no size is selected.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 223 |\u001b[39m               }\n \u001b[90m 224 |\u001b[39m             } \u001b[36melse\u001b[39m {\n \u001b[90m 225 |\u001b[39m               \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Size is selected, but the test case is for no size selected.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at PDPPage.verifyAddToCartButtonDisabledWhenSizeNotSelected (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:222:23)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:75:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:55:37.528Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 23,
+                        "line": 222
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-e10ef676f31b915e454b",
+              "file": "pdp.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "Check available sizes and their visibility",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "status": "failed",
+                      "duration": 30335,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at PDPPage.checkSizeOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:255:43)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:81:5",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 43,
+                          "line": 255
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:255\n\n\u001b[0m \u001b[90m 253 |\u001b[39m            \u001b[90m// console.log('Available and interactable sizes:', availableSizes);\u001b[39m\n \u001b[90m 254 |\u001b[39m            \u001b[90m// console.log('Not available or not interactable sizes:', unavailableSizes);\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m             expect(availableSizes\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m             \u001b[90m// Check that the expected sizes are either available or not\u001b[39m\n \u001b[90m 257 |\u001b[39m             expectedSizes\u001b[33m.\u001b[39mforEach(size \u001b[33m=>\u001b[39m {\n \u001b[90m 258 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mavailableSizes\u001b[33m.\u001b[39mincludes(size) \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39munavailableSizes\u001b[33m.\u001b[39mincludes(size)) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 43,
+                            "line": 255
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:255\n\n\u001b[0m \u001b[90m 253 |\u001b[39m            \u001b[90m// console.log('Available and interactable sizes:', availableSizes);\u001b[39m\n \u001b[90m 254 |\u001b[39m            \u001b[90m// console.log('Not available or not interactable sizes:', unavailableSizes);\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m             expect(availableSizes\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m             \u001b[90m// Check that the expected sizes are either available or not\u001b[39m\n \u001b[90m 257 |\u001b[39m             expectedSizes\u001b[33m.\u001b[39mforEach(size \u001b[33m=>\u001b[39m {\n \u001b[90m 258 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mavailableSizes\u001b[33m.\u001b[39mincludes(size) \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39munavailableSizes\u001b[33m.\u001b[39mincludes(size)) {\u001b[0m\n\n\u001b[2m    at PDPPage.checkSizeOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:255:43)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:81:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:56:36.047Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 43,
+                        "line": 255
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-94bbe67009e1465a09c6",
+              "file": "pdp.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "Verify PDP window close when click on close button",
               "ok": true,
               "tags": [],
               "tests": [
@@ -316,17 +960,614 @@
                   "expectedStatus": "passed",
                   "projectId": "Mobile",
                   "projectName": "Mobile",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "status": "passed",
+                      "duration": 30881,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:57:25.699Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-8f69238611910b6ad2bf",
+              "id": "f952aa59de7cf4ea406f-91ac19238c1a23860a6e",
+              "file": "pdp.spec.ts",
+              "line": 84,
+              "column": 7
+            },
+            {
+              "title": "Article Price is Available on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 26948,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:57:02.381Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-497c202d036207132f5b",
+              "file": "pdp.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Verify Colors on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 30850,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:57:31.086Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-1e0a07312dc160152fd3",
+              "file": "pdp.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "Verift Article Name Available on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 35109,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:58:02.084Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-ea5a4b53f2f133a64cc3",
+              "file": "pdp.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "Verify that selecting a size is applied successfully on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 51113,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:58:37.255Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-daf67e670c73554af021",
+              "file": "pdp.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Verify tabs Available on Product Display Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 39261,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:59:28.463Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-841fb2fe3538d00f0ae4",
+              "file": "pdp.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "Verify that changing color updates the product image on Product Display Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "failed",
+                      "duration": 45170,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('[class^=\\'w-\\'][class*=\\'rounded-full\\']:nth-of-type(1)')\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('[class^=\\'w-\\'][class*=\\'rounded-full\\']:nth-of-type(1)')\u001b[22m\n\n    at PDPPage.selectColorOption (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:176:27)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:56:23",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 27,
+                          "line": 176
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:176\n\n\u001b[0m \u001b[90m 174 |\u001b[39m         \u001b[36mconst\u001b[39m colorOptionSelector \u001b[33m=\u001b[39m \u001b[32m`${this.colorOptionSelectorPdp}:nth-of-type(${index + 1})`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 175 |\u001b[39m         \u001b[36mconst\u001b[39m colorOption \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(colorOptionSelector)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 176 |\u001b[39m         \u001b[36mawait\u001b[39m colorOption\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 177 |\u001b[39m       }\n \u001b[90m 178 |\u001b[39m\n \u001b[90m 179 |\u001b[39m       \u001b[36masync\u001b[39m getUpdatedProductImageSrc()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 27,
+                            "line": 176
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('[class^=\\'w-\\'][class*=\\'rounded-full\\']:nth-of-type(1)')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:176\n\n\u001b[0m \u001b[90m 174 |\u001b[39m         \u001b[36mconst\u001b[39m colorOptionSelector \u001b[33m=\u001b[39m \u001b[32m`${this.colorOptionSelectorPdp}:nth-of-type(${index + 1})`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 175 |\u001b[39m         \u001b[36mconst\u001b[39m colorOption \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(colorOptionSelector)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 176 |\u001b[39m         \u001b[36mawait\u001b[39m colorOption\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 177 |\u001b[39m       }\n \u001b[90m 178 |\u001b[39m\n \u001b[90m 179 |\u001b[39m       \u001b[36masync\u001b[39m getUpdatedProductImageSrc()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m\n\n\u001b[2m    at PDPPage.selectColorOption (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:176:27)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:56:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:00:07.901Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 27,
+                        "line": 176
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-4a47191d21db3cb201a5",
+              "file": "pdp.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "Verify notification appears and vanishes after adding to cart",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "status": "failed",
+                      "duration": 31003,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 18,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 18,
+                            "line": 14
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:01:07.130Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 18,
+                        "line": 14
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-132bf066820abdd46d21",
+              "file": "pdp.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "Verify Add to Cart button is disabled when size is not selected",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "status": "failed",
+                      "duration": 28360,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 18,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 18,
+                            "line": 14
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:02:02.396Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 18,
+                        "line": 14
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-049add345255f4021224",
+              "file": "pdp.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "Check available sizes and their visibility",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "status": "failed",
+                      "duration": 22278,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at PDPPage.checkSizeOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:255:43)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:81:5",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                          "column": 43,
+                          "line": 255
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:255\n\n\u001b[0m \u001b[90m 253 |\u001b[39m            \u001b[90m// console.log('Available and interactable sizes:', availableSizes);\u001b[39m\n \u001b[90m 254 |\u001b[39m            \u001b[90m// console.log('Not available or not interactable sizes:', unavailableSizes);\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m             expect(availableSizes\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m             \u001b[90m// Check that the expected sizes are either available or not\u001b[39m\n \u001b[90m 257 |\u001b[39m             expectedSizes\u001b[33m.\u001b[39mforEach(size \u001b[33m=>\u001b[39m {\n \u001b[90m 258 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mavailableSizes\u001b[33m.\u001b[39mincludes(size) \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39munavailableSizes\u001b[33m.\u001b[39mincludes(size)) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                            "column": 43,
+                            "line": 255
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[90m   at \u001b[39m..\\page-objects\\pdp.page.ts:255\n\n\u001b[0m \u001b[90m 253 |\u001b[39m            \u001b[90m// console.log('Available and interactable sizes:', availableSizes);\u001b[39m\n \u001b[90m 254 |\u001b[39m            \u001b[90m// console.log('Not available or not interactable sizes:', unavailableSizes);\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m             expect(availableSizes\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m             \u001b[90m// Check that the expected sizes are either available or not\u001b[39m\n \u001b[90m 257 |\u001b[39m             expectedSizes\u001b[33m.\u001b[39mforEach(size \u001b[33m=>\u001b[39m {\n \u001b[90m 258 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mavailableSizes\u001b[33m.\u001b[39mincludes(size) \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39munavailableSizes\u001b[33m.\u001b[39mincludes(size)) {\u001b[0m\n\n\u001b[2m    at PDPPage.checkSizeOptions (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts:255:43)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:81:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:02:51.451Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\pdp.page.ts",
+                        "column": 43,
+                        "line": 255
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-ce3ee882a0aa9d817f10",
+              "file": "pdp.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "Verify PDP window close when click on close button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "status": "failed",
+                      "duration": 30394,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                          "column": 18,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                            "column": 18,
+                            "line": 14
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[@alt=\\'BORDEAUX-2.webp\\']') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m       \u001b[36mawait\u001b[39m plpPage\u001b[33m.\u001b[39mnavigate(\u001b[32m'http://localhost:8080'\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m 13 |\u001b[39m       \u001b[36mconst\u001b[39m imageSelector \u001b[33m=\u001b[39m \u001b[32m\"//img[@alt='BORDEAUX-2.webp']\"\u001b[39m\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(imageSelector)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m       \u001b[36mconst\u001b[39m productViewContainerSelector \u001b[33m=\u001b[39m \u001b[32m\"//div[@id='app']//section[@class='shared-modal__content']//div[@class='close-button-container']\"\u001b[39m\u001b[33m;\u001b[39m \n \u001b[90m 17 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(productViewContainerSelector\u001b[33m,\u001b[39m { state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts:14:18\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:03:32.209Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\pdp.spec.ts",
+                        "column": 18,
+                        "line": 14
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f952aa59de7cf4ea406f-98e9af0557a06e3ab63c",
+              "file": "pdp.spec.ts",
+              "line": 84,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "plp.spec.ts",
+      "file": "plp.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Product Listing Page Tests",
+          "file": "plp.spec.ts",
+          "line": 11,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Product Listing page title should be correct",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 20795,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:46:28.975Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-c18f78d3773e35388688",
+              "file": "plp.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "All products should have titles on Product Listing page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 26022,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:47:54.925Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-a3b63e847cb717d8c370",
+              "file": "plp.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "Verify all product images are available and visible on Product Listing page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7568,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:48:21.599Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-7ea32b7c9af7f138f3ea",
+              "file": "plp.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "Verify all product prices are available and valid on Product Listing page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 19320,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:48:29.350Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-66baca3f4dfaa46a1164",
               "file": "plp.spec.ts",
               "line": 44,
               "column": 7
             },
             {
-              "title": "Verify that colors on PLP should be available for each product",
+              "title": "Verify that colors on Product Listing page should be available for each product",
               "ok": true,
               "tags": [],
               "tests": [
@@ -334,19 +1575,87 @@
                   "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "Mobile",
-                  "projectName": "Mobile",
-                  "results": [],
-                  "status": "skipped"
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 8426,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:48:48.760Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-b17bb91e853f97940610",
+              "id": "f34df1c5ce7eea99e902-bf0698260d885a62bd2c",
               "file": "plp.spec.ts",
-              "line": 47,
+              "line": 48,
               "column": 7
             },
             {
               "title": "Verify same product opens in PDP when clicking product from PLP",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 9403,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                          "column": 29,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                            "column": 29,
+                            "line": 62
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:48:57.263Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                        "column": 29,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-052236caaba9b872c9c9",
+              "file": "plp.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "Product Listing page title should be correct",
               "ok": true,
               "tags": [],
               "tests": [
@@ -356,17 +1665,237 @@
                   "expectedStatus": "passed",
                   "projectId": "Mobile",
                   "projectName": "Mobile",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 10945,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:52:30.760Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-2123f6f6f8dc2f85505c",
+              "file": "plp.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "All products should have titles on Product Listing page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 14304,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:54:15.129Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-225f3b5944fba9a40922",
+              "file": "plp.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "Verify all product images are available and visible on Product Listing page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 16992,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:54:29.506Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-dc1f795df0eecd85273c",
+              "file": "plp.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "Verify all product prices are available and valid on Product Listing page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "failed",
+                      "duration": 44176,
+                      "error": {
+                        "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-page__price') to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-page__price') to be visible\u001b[22m\n\n    at PLPPage.verifyAllProductPricesAvailable (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts:86:25)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:45:19",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                          "column": 25,
+                          "line": 86
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\plp.page.ts:86\n\n\u001b[0m \u001b[90m 84 |\u001b[39m    \u001b[36masync\u001b[39m verifyAllProductPricesAvailable() {\n \u001b[90m 85 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\".product-page__price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 87 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 88 |\u001b[39m         \u001b[36mconst\u001b[39m priceCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpriceLocators\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m 89 |\u001b[39m      \u001b[90m//   console.log(`Number of prices found: ${priceCount}`);\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                            "column": 25,
+                            "line": 86
+                          },
+                          "message": "TimeoutError: page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('.product-page__price') to be visible\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\page-objects\\plp.page.ts:86\n\n\u001b[0m \u001b[90m 84 |\u001b[39m    \u001b[36masync\u001b[39m verifyAllProductPricesAvailable() {\n \u001b[90m 85 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\".product-page__price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 87 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 88 |\u001b[39m         \u001b[36mconst\u001b[39m priceCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpriceLocators\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m 89 |\u001b[39m      \u001b[90m//   console.log(`Number of prices found: ${priceCount}`);\u001b[39m\u001b[0m\n\n\u001b[2m    at PLPPage.verifyAllProductPricesAvailable (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts:86:25)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:45:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:54:46.650Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                        "column": 25,
+                        "line": 86
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-75ce2841cd0fbd4f3aa1",
+              "file": "plp.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "Verify that colors on Product Listing page should be available for each product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "status": "passed",
+                      "duration": 22221,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:55:51.868Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-0d9231e09164390d29fa",
+              "file": "plp.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "Verify same product opens in PDP when clicking product from PLP",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "status": "failed",
+                      "duration": 29175,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"7.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"7.99 \u001b[7mEUR\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"7.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"7.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                          "column": 29,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                            "column": 29,
+                            "line": 62
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"7.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"7.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:56:17.789Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                        "column": 29,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
                 }
               ],
               "id": "f34df1c5ce7eea99e902-7b52c41d9afccbda0352",
               "file": "plp.spec.ts",
-              "line": 50,
+              "line": 52,
               "column": 7
             },
             {
-              "title": "PLP page title should be correct",
+              "title": "Product Listing page title should be correct",
               "ok": true,
               "tags": [],
               "tests": [
@@ -376,17 +1905,29 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 11215,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:58:13.382Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-d82acf985b59eb68e410",
+              "id": "f34df1c5ce7eea99e902-1fbee40f32e5ae8e570d",
               "file": "plp.spec.ts",
-              "line": 22,
+              "line": 21,
               "column": 7
             },
             {
-              "title": "All products should have titles",
+              "title": "All products should have titles on Product Listing page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -396,17 +1937,29 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 25171,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:59:26.245Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-36e04daa507f84efd351",
+              "id": "f34df1c5ce7eea99e902-8af18b9b3d7aee1e3d78",
               "file": "plp.spec.ts",
-              "line": 37,
+              "line": 36,
               "column": 7
             },
             {
-              "title": "Verify all product images are available and visible",
+              "title": "Verify all product images are available and visible on Product Listing page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -416,17 +1969,29 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 9750,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T17:59:51.498Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-bad6d224c0c3253f1854",
+              "id": "f34df1c5ce7eea99e902-db8465125bedcec98b0f",
               "file": "plp.spec.ts",
-              "line": 41,
+              "line": 40,
               "column": 7
             },
             {
-              "title": "Verify all product prices are available and valid",
+              "title": "Verify all product prices are available and valid on Product Listing page",
               "ok": true,
               "tags": [],
               "tests": [
@@ -436,17 +2001,29 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 14974,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:00:01.326Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-bd588e30327701eec9b8",
+              "id": "f34df1c5ce7eea99e902-207de4abd135d1d08fd7",
               "file": "plp.spec.ts",
               "line": 44,
               "column": 7
             },
             {
-              "title": "Verify that colors on PLP should be available for each product",
+              "title": "Verify that colors on Product Listing page should be available for each product",
               "ok": true,
               "tags": [],
               "tests": [
@@ -456,18 +2033,30 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 11034,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:00:16.658Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "f34df1c5ce7eea99e902-0a9ab34109f39d59f2ac",
+              "id": "f34df1c5ce7eea99e902-15e7d4c033916f5f9f4d",
               "file": "plp.spec.ts",
-              "line": 47,
+              "line": 48,
               "column": 7
             },
             {
               "title": "Verify same product opens in PDP when clicking product from PLP",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -476,19 +2065,55 @@
                   "expectedStatus": "passed",
                   "projectId": "Tablet",
                   "projectName": "Tablet",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "failed",
+                      "duration": 9512,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29",
+                        "location": {
+                          "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                          "column": 29,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                            "column": 29,
+                            "line": 62
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m2.99 \u001b[7m€\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"2\u001b[7m3\u001b[27m.99 \u001b[7mEUR\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// Verify that product details match between PLP and PDP\u001b[39m\n \u001b[90m 61 |\u001b[39m     expect(productTitlePDP)\u001b[33m.\u001b[39mtoBe(productTitlePLP)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     expect(productPricePDP)\u001b[33m.\u001b[39mtoBe(productPricePLP)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     expect(imageSrcPDP)\u001b[33m.\u001b[39mtoBe(imageSrcPLP)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:62:29\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T18:00:27.756Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts",
+                        "column": 29,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
                 }
               ],
               "id": "f34df1c5ce7eea99e902-84e21aa5ad690e4a8ad5",
               "file": "plp.spec.ts",
-              "line": 50,
+              "line": 52,
               "column": 7
             }
           ],
           "suites": [
             {
-              "title": "PLP Responsive Design Tests",
+              "title": "Product Listing page Responsive Design Tests",
               "file": "plp.spec.ts",
               "line": 26,
               "column": 8,
@@ -506,21 +2131,21 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 0,
-                          "status": "skipped",
-                          "duration": 0,
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 16786,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-08-19T12:54:05.171Z",
+                          "startTime": "2024-08-19T17:46:52.027Z",
                           "attachments": []
                         }
                       ],
-                      "status": "skipped"
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-11308eedbcc9e1c91079",
+                  "id": "f34df1c5ce7eea99e902-165fdd62069bc0bfc593",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -536,11 +2161,23 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 25253,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:47:09.190Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-a2869bcc363737f9684a",
+                  "id": "f34df1c5ce7eea99e902-9901ef04a53c88aa8e36",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -556,18 +2193,30 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 20169,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:47:34.551Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-15ff3ac6c436b0916f57",
+                  "id": "f34df1c5ce7eea99e902-12c44125621d7fa1ba4b",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
                 },
                 {
                   "title": "PLP should display correctly on Mobile",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -576,11 +2225,47 @@
                       "expectedStatus": "passed",
                       "projectId": "Mobile",
                       "projectName": "Mobile",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "status": "failed",
+                          "duration": 16294,
+                          "error": {
+                            "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[contains(@alt, \\'.webp\\')]') to be visible\u001b[22m\n",
+                            "stack": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[contains(@alt, \\'.webp\\')]') to be visible\u001b[22m\n\n    at PLPPage.checkImagesAndTakeScreenshot (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts:154:25)\n    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:31:23",
+                            "location": {
+                              "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                              "column": 25,
+                              "line": 154
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\plp.page.ts:154\n\n\u001b[0m \u001b[90m 152 |\u001b[39m       \u001b[90m// Method to check for images and take a screenshot\u001b[39m\n \u001b[90m 153 |\u001b[39m       \u001b[36masync\u001b[39m checkImagesAndTakeScreenshot(screenshotPath\u001b[33m:\u001b[39m string)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 154 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\"//img[contains(@alt, '.webp')]\"\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 155 |\u001b[39m         \u001b[36mconst\u001b[39m imageCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimageLocators\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m 156 |\u001b[39m         \u001b[36mif\u001b[39m (imageCount \u001b[33m<=\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 157 |\u001b[39m           \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'No images found on the PLP page.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                                "column": 25,
+                                "line": 154
+                              },
+                              "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//img[contains(@alt, \\'.webp\\')]') to be visible\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\page-objects\\plp.page.ts:154\n\n\u001b[0m \u001b[90m 152 |\u001b[39m       \u001b[90m// Method to check for images and take a screenshot\u001b[39m\n \u001b[90m 153 |\u001b[39m       \u001b[36masync\u001b[39m checkImagesAndTakeScreenshot(screenshotPath\u001b[33m:\u001b[39m string)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 154 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\"//img[contains(@alt, '.webp')]\"\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 155 |\u001b[39m         \u001b[36mconst\u001b[39m imageCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimageLocators\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m 156 |\u001b[39m         \u001b[36mif\u001b[39m (imageCount \u001b[33m<=\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 157 |\u001b[39m           \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'No images found on the PLP page.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at PLPPage.checkImagesAndTakeScreenshot (D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts:154:25)\u001b[22m\n\u001b[2m    at D:\\Oliver\\makoch01\\challenge\\product_modal\\tests\\plp.spec.ts:31:23\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:52:44.667Z",
+                          "attachments": [],
+                          "errorLocation": {
+                            "file": "D:\\Oliver\\makoch01\\challenge\\product_modal\\page-objects\\plp.page.ts",
+                            "column": 25,
+                            "line": 154
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-e1ee22c9484f29a9f810",
+                  "id": "f34df1c5ce7eea99e902-6dc1b6d502854c54b9e9",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -596,11 +2281,23 @@
                       "expectedStatus": "passed",
                       "projectId": "Mobile",
                       "projectName": "Mobile",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "status": "passed",
+                          "duration": 21110,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:53:10.972Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-e4a346694dbc08244fe2",
+                  "id": "f34df1c5ce7eea99e902-b31822e4bce111cd6673",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -616,11 +2313,23 @@
                       "expectedStatus": "passed",
                       "projectId": "Mobile",
                       "projectName": "Mobile",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "status": "passed",
+                          "duration": 40815,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:53:34.177Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-ddfb858e8b801eaa35f9",
+                  "id": "f34df1c5ce7eea99e902-f371efb8afc90658701c",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -636,11 +2345,23 @@
                       "expectedStatus": "passed",
                       "projectId": "Tablet",
                       "projectName": "Tablet",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 17,
+                          "status": "passed",
+                          "duration": 10476,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:58:28.797Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-aba880681f0843c9208c",
+                  "id": "f34df1c5ce7eea99e902-bef2b5f6e98f9765a3cd",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -656,11 +2377,23 @@
                       "expectedStatus": "passed",
                       "projectId": "Tablet",
                       "projectName": "Tablet",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 17,
+                          "status": "passed",
+                          "duration": 28046,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:58:39.456Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-30b5ed7fd1e4f304f0ab",
+                  "id": "f34df1c5ce7eea99e902-39a3bfd1f59c69a71651",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -676,11 +2409,23 @@
                       "expectedStatus": "passed",
                       "projectId": "Tablet",
                       "projectName": "Tablet",
-                      "results": [],
-                      "status": "skipped"
+                      "results": [
+                        {
+                          "workerIndex": 17,
+                          "status": "passed",
+                          "duration": 18370,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-08-19T17:59:07.710Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "id": "f34df1c5ce7eea99e902-637aaaa6eb79d0692e5a",
+                  "id": "f34df1c5ce7eea99e902-b82576ea03f1a6420409",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -694,11 +2439,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-19T12:53:37.384Z",
-    "duration": 37571.816,
-    "expected": 1,
-    "skipped": 26,
-    "unexpected": 0,
+    "startTime": "2024-08-19T17:46:20.075Z",
+    "duration": 1067729.647,
+    "expected": 37,
+    "skipped": 0,
+    "unexpected": 20,
     "flaky": 0
   }
 }

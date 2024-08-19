@@ -30,6 +30,7 @@ export class PLPPage {
   async getPageTitle(): Promise<string> {
     return this.page.title();
   }
+
   async verifyPageTitle(expectedTitle: string) {
     const actualTitle = await this.getPageTitle();
     if (actualTitle !== expectedTitle) {
@@ -67,17 +68,17 @@ export class PLPPage {
         if (imageCount === 0) {
         throw new Error('No product images found on the page.');
         }
-        console.log(`Number of images found: ${imageCount}`);
+        //console.log(`Number of images found: ${imageCount}`);
         for (let i = 0; i < imageCount; i++) {
         const imageLocator = this.imageLocators.nth(i);
         try {
             await imageLocator.waitFor({ state: 'visible', timeout: 5000 });
-            console.log(`Image at index ${i} is visible.`);
+           // console.log(`Image at index ${i} is visible.`);
           } catch (error) {
             console.error(`Image at index ${i} is not visible within the timeout.`);
           }
         }
-        console.log('All product images are available and visible.');
+       // console.log('All product images are available and visible.');
     }
     // Method to verify that all product prices are available and valid
    async verifyAllProductPricesAvailable() {
@@ -85,7 +86,7 @@ export class PLPPage {
         await this.page.waitForSelector(".product-page__price");
         await this.page.waitForTimeout(1000);
         const priceCount = await this.priceLocators.count();
-        console.log(`Number of prices found: ${priceCount}`);
+     //   console.log(`Number of prices found: ${priceCount}`);
         // Ensure there is at least one price element
         if (priceCount === 0) {
         throw new Error('No product prices found on the page.');
@@ -97,23 +98,24 @@ export class PLPPage {
         const isVisible = await priceLocator.isVisible();
         try {
             await priceLocator.waitFor({ state: 'visible', timeout: 5000 });
-            console.log(`Price at index ${i} is visible.`);
+          //  console.log(`Price at index ${i} is visible.`);
           } catch (error) {
             console.error(`Price at index ${i} is not visible within the timeout.`);
           }
         // Get the text content of the price
         const priceText = await priceLocator.textContent();
         const priceValue = parseFloat(priceText?.replace(/[^0-9.-]+/g, "") || "0");
-        console.log(`Price text: ${priceText}, Parsed value: ${priceValue}`);
+      //  console.log(`Price text: ${priceText}, Parsed value: ${priceValue}`);
         }
     }
     // Method to verify that colors are available for each product
-        async verifyAllProductColorsAvailable() {
+    async verifyAllProductColorsAvailable() {
+        await this.page.waitForTimeout(1000);
         await this.page.waitForSelector('.product-page__color-box'); 
         // Get all color locators
         await this.page.waitForTimeout(1000);
         const colorCount = await this.colorLocators.count();
-        console.log(`Number of color elements found: ${colorCount}`);
+       // console.log(`Number of color elements found: ${colorCount}`);
         // Ensure there is at least one color element
         if (colorCount === 0) {
         throw new Error('No color elements found on the page.');
@@ -125,7 +127,7 @@ export class PLPPage {
         try {
             // Wait for the Price to be visible
             await colorLocator.waitFor({ state: 'visible', timeout: 5000 });
-            console.log(`Color at index ${i} is visible.`);
+           // console.log(`Color at index ${i} is visible.`);
           } catch (error) {
             console.error(`Price at index ${i} is not visible within the timeout.`);
           }
@@ -138,14 +140,15 @@ export class PLPPage {
         const productPrice = await this.productPriceLocator.textContent();
         return { imageSrc, productTitle, productPrice };
       }
+
       async clickProductImage(index: number = 0) {
         const imageLocator = this.productImageLocator.nth(index);
         await imageLocator.click();
       }
+
       async setViewportSize(width: number, height: number): Promise<void> {
         await this.page.setViewportSize({ width, height });
       }
-    
       // Method to check for images and take a screenshot
       async checkImagesAndTakeScreenshot(screenshotPath: string): Promise<void> {
         await this.page.waitForSelector("//img[contains(@alt, '.webp')]", { timeout: 10000 });
@@ -153,9 +156,7 @@ export class PLPPage {
         if (imageCount <= 0) {
           throw new Error('No images found on the PLP page.');
         }
-        console.log('PLP Success');
-        await this.page.screenshot({ path: screenshotPath });
+           await this.page.screenshot({ path: screenshotPath });
       }
-      
-    }
+}
       
