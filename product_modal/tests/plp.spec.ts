@@ -8,8 +8,6 @@ const viewports = [
     { name: 'Desktop', width: 1440, height: 900 } // Desktop
   ];
 
- 
-
   test.describe('Product Listing Page Tests', () => {
   let plpPage: PLPPage;
   let pdpPage: PDPPage;
@@ -19,11 +17,12 @@ const viewports = [
     pdpPage = new PDPPage(page);
     await plpPage.navigate('http://localhost:8080'); // Replace with your PLP URL
   });
+
   test('PLP page title should be correct', async () => {
     const expectedTitle = 'product_modal';
     await plpPage.verifyPageTitle(expectedTitle);
   });
-  
+
   test.describe('PLP Responsive Design Tests', () => {
     viewports.forEach(({ name, width, height }) => {
       test(`PLP should display correctly on ${name}`, async ({ page }) => {
@@ -37,15 +36,19 @@ const viewports = [
   test('All products should have titles', async () => {
     await plpPage.verifyAllProductsHaveTitles();
   });
+
   test('Verify all product images are available and visible', async () => {
     await plpPage.verifyAllProductImagesAvailable();
   });
+
   test('Verify all product prices are available and valid', async () => {
     await plpPage.verifyAllProductPricesAvailable();
   });
+
   test('Verify that colors on PLP should be available for each product', async () => {
     await plpPage.verifyAllProductColorsAvailable();
   });
+  
   test('Verify same product opens in PDP when clicking product from PLP', async () => {
     await plpPage.clickProductImage();
     // Capture product details from PLP
