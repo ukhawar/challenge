@@ -251,7 +251,7 @@ export class PDPPage {
             
             // Log available and unavailable sizes
            // console.log('Available and interactable sizes:', availableSizes);
-           // console.log('Not available or not interactable sizes:', unavailableSizes);
+           /// console.log('Not available or not interactable sizes:', unavailableSizes);
             expect(availableSizes.length).toBeGreaterThan(0);
             // Check that the expected sizes are either available or not
             expectedSizes.forEach(size => {

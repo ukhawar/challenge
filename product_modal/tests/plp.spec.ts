@@ -55,7 +55,7 @@ const viewports = [
     const { imageSrc: imageSrcPLP, productTitle: productTitlePLP, productPrice: productPricePLP } = await plpPage.getProductDetails();
     // Verify PDP is visible
     await pdpPage.verifyPDPVisible();
-    // Capture product details from PDP
+    ///Capture product details from PDP
     const { productTitle: productTitlePDP, productPrice: productPricePDP, imageSrc: imageSrcPDP } = await pdpPage.getProductDetails();
     // Verify that product details match between PLP and PDP
     expect(productTitlePDP).toBe(productTitlePLP);

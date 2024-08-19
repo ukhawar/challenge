@@ -149,7 +149,7 @@ export class PLPPage {
       async setViewportSize(width: number, height: number): Promise<void> {
         await this.page.setViewportSize({ width, height });
       }
-      // Method to check for images and take a screenshot
+      /// Method to check for images and take a screenshot
       async checkImagesAndTakeScreenshot(screenshotPath: string): Promise<void> {
         await this.page.waitForSelector("//img[contains(@alt, '.webp')]", { timeout: 10000 });
         const imageCount = await this.imageLocators.count();

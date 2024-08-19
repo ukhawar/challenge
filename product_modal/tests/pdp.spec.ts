@@ -66,7 +66,7 @@ test.describe('Product Detail Page Tests', () => {
     await pdpPage.addToCart();
     // Verify the notification appears and has the correct text
     await pdpPage.waitForNotification();
-    // Wait and verify the notification disappears
+    /// Wait and verify the notification disappears
     await pdpPage.waitForNotificationToDisappear();
   });
 
