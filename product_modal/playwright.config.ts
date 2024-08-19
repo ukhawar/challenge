@@ -25,11 +25,11 @@ export default defineConfig({
     },*/
     {
       name: 'Mobile',
-      use: { ...devices['Pixel 5'] },
-  / },
+     use: { ...devices['Pixel 5'] },
+  },
     {
-      name: 'Tablet',
-     use: { ...devices['iPad'] },
+     name: 'Tablet',
+    use: { ...devices['iPad'] },
     },
   ],
   reporter: [

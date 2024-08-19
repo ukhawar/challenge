@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -51,11 +51,39 @@
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 60000
+      },
+      {
+        "outputDir": "D:/Oliver/makoch01/challenge/product_modal/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile",
+        "name": "Mobile",
+        "testDir": "D:/Oliver/makoch01/challenge/product_modal/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "D:/Oliver/makoch01/challenge/product_modal/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Tablet",
+        "name": "Tablet",
+        "testDir": "D:/Oliver/makoch01/challenge/product_modal/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.46.0",
+    "version": "1.46.1",
     "workers": 2,
     "webServer": null
   },
@@ -88,12 +116,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8767,
+                      "duration": 17478,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-08-18T19:53:25.365Z",
+                      "startTime": "2024-08-19T12:53:43.554Z",
                       "attachments": []
                     }
                   ],
@@ -103,6 +131,358 @@
               "id": "f34df1c5ce7eea99e902-2935f3c4693c58d648c5",
               "file": "plp.spec.ts",
               "line": 22,
+              "column": 7
+            },
+            {
+              "title": "All products should have titles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-cf287ee272fd9bbf5e2b",
+              "file": "plp.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Verify all product images are available and visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-7f568343cea520f663f1",
+              "file": "plp.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "Verify all product prices are available and valid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-1040d321a7f9050bf0cc",
+              "file": "plp.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "Verify that colors on PLP should be available for each product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-56d3e81d238011c6e636",
+              "file": "plp.spec.ts",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Verify same product opens in PDP when clicking product from PLP",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-052236caaba9b872c9c9",
+              "file": "plp.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "PLP page title should be correct",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T12:53:43.554Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-abf252340a72ba7e145a",
+              "file": "plp.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "All products should have titles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-6960ebe3b460ef0f1e44",
+              "file": "plp.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Verify all product images are available and visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-a676c6f52295283b119c",
+              "file": "plp.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "Verify all product prices are available and valid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-8f69238611910b6ad2bf",
+              "file": "plp.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "Verify that colors on PLP should be available for each product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-b17bb91e853f97940610",
+              "file": "plp.spec.ts",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Verify same product opens in PDP when clicking product from PLP",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile",
+                  "projectName": "Mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-7b52c41d9afccbda0352",
+              "file": "plp.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "PLP page title should be correct",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-d82acf985b59eb68e410",
+              "file": "plp.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "All products should have titles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-36e04daa507f84efd351",
+              "file": "plp.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Verify all product images are available and visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-bad6d224c0c3253f1854",
+              "file": "plp.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "Verify all product prices are available and valid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-bd588e30327701eec9b8",
+              "file": "plp.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "Verify that colors on PLP should be available for each product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-0a9ab34109f39d59f2ac",
+              "file": "plp.spec.ts",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Verify same product opens in PDP when clicking product from PLP",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Tablet",
+                  "projectName": "Tablet",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f34df1c5ce7eea99e902-84e21aa5ad690e4a8ad5",
+              "file": "plp.spec.ts",
+              "line": 50,
               "column": 7
             }
           ],
@@ -127,21 +507,17 @@
                       "results": [
                         {
                           "workerIndex": 0,
-                          "status": "passed",
-                          "duration": 6015,
+                          "status": "skipped",
+                          "duration": 0,
                           "errors": [],
-                          "stdout": [
-                            {
-                              "text": "PLP Success\n"
-                            }
-                          ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2024-08-18T19:53:36.438Z",
+                          "startTime": "2024-08-19T12:54:05.171Z",
                           "attachments": []
                         }
                       ],
-                      "status": "expected"
+                      "status": "skipped"
                     }
                   ],
                   "id": "f34df1c5ce7eea99e902-11308eedbcc9e1c91079",
@@ -160,24 +536,8 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 0,
-                          "status": "passed",
-                          "duration": 6049,
-                          "errors": [],
-                          "stdout": [
-                            {
-                              "text": "PLP Success\n"
-                            }
-                          ],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2024-08-18T19:53:42.530Z",
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
+                      "results": [],
+                      "status": "skipped"
                     }
                   ],
                   "id": "f34df1c5ce7eea99e902-a2869bcc363737f9684a",
@@ -196,27 +556,131 @@
                       "expectedStatus": "passed",
                       "projectId": "chromium",
                       "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 0,
-                          "status": "passed",
-                          "duration": 9198,
-                          "errors": [],
-                          "stdout": [
-                            {
-                              "text": "PLP Success\n"
-                            }
-                          ],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2024-08-18T19:53:48.650Z",
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
+                      "results": [],
+                      "status": "skipped"
                     }
                   ],
                   "id": "f34df1c5ce7eea99e902-15ff3ac6c436b0916f57",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Mobile",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile",
+                      "projectName": "Mobile",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-e1ee22c9484f29a9f810",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Tablet",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile",
+                      "projectName": "Mobile",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-e4a346694dbc08244fe2",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Desktop",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile",
+                      "projectName": "Mobile",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-ddfb858e8b801eaa35f9",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Mobile",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Tablet",
+                      "projectName": "Tablet",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-aba880681f0843c9208c",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Tablet",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Tablet",
+                      "projectName": "Tablet",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-30b5ed7fd1e4f304f0ab",
+                  "file": "plp.spec.ts",
+                  "line": 28,
+                  "column": 11
+                },
+                {
+                  "title": "PLP should display correctly on Desktop",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Tablet",
+                      "projectName": "Tablet",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "f34df1c5ce7eea99e902-637aaaa6eb79d0692e5a",
                   "file": "plp.spec.ts",
                   "line": 28,
                   "column": 11
@@ -230,10 +694,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-18T19:53:16.169Z",
-    "duration": 44065.189,
-    "expected": 4,
-    "skipped": 0,
+    "startTime": "2024-08-19T12:53:37.384Z",
+    "duration": 37571.816,
+    "expected": 1,
+    "skipped": 26,
     "unexpected": 0,
     "flaky": 0
   }

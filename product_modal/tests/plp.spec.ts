@@ -4,7 +4,7 @@ import { PDPPage } from '../page-objects/pdp.page';
 
 const viewports = [
     { name: 'Mobile', width: 375, height: 667 }, // iPhone 6/7/8
-     { name: 'Tablet', width: 768, height: 1024 }, // iPad
+    { name: 'Tablet', width: 768, height: 1024 }, // iPad
     { name: 'Desktop', width: 1440, height: 900 } // Desktop
   ];
 
@@ -23,6 +23,7 @@ const viewports = [
     const expectedTitle = 'product_modal';
     await plpPage.verifyPageTitle(expectedTitle);
   });
+  
   test.describe('PLP Responsive Design Tests', () => {
     viewports.forEach(({ name, width, height }) => {
       test(`PLP should display correctly on ${name}`, async ({ page }) => {
@@ -33,10 +34,8 @@ const viewports = [
     });
   });
 
-
   test('All products should have titles', async () => {
     await plpPage.verifyAllProductsHaveTitles();
-    
   });
   test('Verify all product images are available and visible', async () => {
     await plpPage.verifyAllProductImagesAvailable();
