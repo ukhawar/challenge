@@ -6,6 +6,7 @@
   >
     <img
       v-if="loaded"
+
       :src="imageUrl"
       :alt="altText"
       :style="{

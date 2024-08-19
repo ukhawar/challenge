@@ -8,7 +8,7 @@ It is important that the requestors are satisfied. So please don't hesitate to c
 
 ## Requestors
 
-Manuel Koch (manuel.koch@de.soliver.com)<br>
+Markus Kessler (markus.kessler@de.soliver.com)<br>
 
 ## Original Dev-Story
 
